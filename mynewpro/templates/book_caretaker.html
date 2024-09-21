@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Caretaker</title>
+</head>
+<body>
+    <h1>Book Caretaker</h1>
+    <form action="/auth/" method="POST">
+        <input type="hidden" name="action" value="book_caretaker">
+        <input type="hidden" name="caretaker_id" value="{{ caretaker_id }}">
+        <label for="booking_date">Booking Date:</label>
+        <input type="date" id="booking_date" name="booking_date" required>
+        <button type="submit">Book</button>
+    </form>
+</body>
+</html>
