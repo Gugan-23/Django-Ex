@@ -11,6 +11,16 @@
     <h1>Profile of {{ user.username }}</h1>
     <p>Email: {{ user.email }}</p>
     <p>User ID: {{ user.user_id }}</p>
+    {% if caretaker %}
+        <h2>Booked Caretaker</h2>
+        <p>Name: {{ caretaker.name }}</p>
+        <p>Email: {{ caretaker.email }}</p>
+        <p>Phone: {{ caretaker.phone }}</p>
+        <p>Specialization: {{ caretaker.specialization }}</p>
+    {% else %}
+        <p>No caretaker booked.</p>
+    {% endif %}
+    
     <button><a href="/home/">Go to Home</a>
     </button><button> <a href="/">Logout</a></button>
 </body>

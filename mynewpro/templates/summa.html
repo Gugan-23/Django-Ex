@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Person in Wheelchair</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        /* Container for Image */
+        .wheelchair-container {
+            width: 300px;
+            height: 400px;
+            position: relative;
+        }
+
+        /* Make image responsive */
+        .wheelchair-image {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Add subtle animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .wheelchair-container {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="wheelchair-container">
+        <!-- Replace with your own image -->
+        <img class="wheelchair-image" src="https://cdn.pixabay.com/photo/2024/09/03/18/03/desert-9019840_1280.jpg" alt="Person in Wheelchair">
+    </div>
+
+</body>
+</html>

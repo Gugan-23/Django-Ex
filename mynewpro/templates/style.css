@@ -1,0 +1,115 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Wheelchair Container */
+.wheelchair-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+/* Head */
+.head {
+    width: 50px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 75px;
+    z-index: 2;
+}
+
+/* Body */
+.body {
+    width: 20px;
+    height: 100px;
+    background-color: #4682B4;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+
+/* Left Leg */
+.left-leg {
+    width: 20px;
+    height: 60px;
+    background-color: #4682B4;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    transform: rotate(40deg);
+}
+
+/* Right Leg */
+.right-leg {
+    width: 20px;
+    height: 60px;
+    background-color: #4682B4;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    transform: rotate(-40deg);
+}
+
+/* Wheelchair seat */
+.wheelchair-seat {
+    width: 100px;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+
+/* Wheelchair back */
+.wheelchair-back {
+    width: 10px;
+    height: 100px;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* Big Wheel */
+.big-wheel {
+    width: 120px;
+    height: 120px;
+    border: 10px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+/* Small Wheel */
+.small-wheel {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+
+/* Arm */
+.arm {
+    width: 80px;
+    height: 10px;
+    background-color: #4682B4;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    transform: rotate(-30deg);
+}

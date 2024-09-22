@@ -25,11 +25,11 @@ DATABASES = {
 
 # Other settings...
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # or your email provider
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'h8702643@gmail.com'
-EMAIL_HOST_PASSWORD = 'osxa rglp zcir cimn'
+EMAIL_HOST_PASSWORD = 'osxa rglp zcir cimn'  # Use your actual password or an app password
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
